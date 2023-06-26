@@ -1,0 +1,93 @@
+#puzzle-container {
+    width: 360px;
+    height: 360px;
+    border: 1px solid;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 20px;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 360px 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.puzzle-item {
+    width: 120px;
+    height: 120px;
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #ddd;
+}
+
+#play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 50px;
+    width: 360px;
+    background-color: aquamarine;
+    border-radius: 2rem;
+    margin-bottom: 20px;
+}
+
+.tileGang{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.hehe {
+    background: url(square_image.png);
+}
+
+.tile1 {
+    background-position: left top;
+}
+
+.tile2 {
+    background-position: center top;
+}
+
+.tile3 {
+    background-position: right top;
+}
+
+.tile4 {
+    background-position: left center;
+}
+
+.tile5 {
+    background-position: center center;
+}
+
+.tile6 {
+    background-position: right center;
+}
+
+.tile7 {
+    background-position: left bottom;
+}
+
+.tile8 {
+    background-position: center bottom;
+}
+
+.tile9 {
+    background: white;
+    cursor: default;
+}
