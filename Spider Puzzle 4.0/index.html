@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Spider Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="puzzle-container">
+        <!-- <div id="background-image"></div> -->
+    </div>
+    <form id="form" enctype="multipart/form-data" method="post">
+        <label class="play-button" for="img">Click To Choose Image</label>
+        <input type="file" id="img" name="img" accept="image/png, image/jpeg">
+        <button class="btn play-button">Upload Chosen Image</button>
+    </form>
+    <div id="result"></div>
+    <button class="play-button" id="clear-images">Clear Images</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
